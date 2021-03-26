@@ -46,10 +46,10 @@ Another observation from model evaluations was that models that include data aug
 Here the results from the selected model: 
 
 Train & Validation cross entropy loss & accuracy:
-![Evaluation Loss & Accuracy]( /Users/carlamoestafa/Documents/GitHub/project-5/results/cnn_augmented_10.png)
+![Evaluation Loss & Accuracy](cnn_augmented_10.png)
 
 Model Test Confusion Matrix:
-![Confusion Matrix](/Users/carlamoestafa/Documents/GitHub/project-5/results/test_cnn_aug_10.png)
+![Confusion Matrix](test_cnn_aug_10.png)
 
 Command: csvtomd /Users/carlamoestafa/Documents/GitHub/project-5/results/test_cnn_aug_10.csv
 
@@ -57,7 +57,7 @@ We can see from the confusion matrix that the model was struggling classifying t
 
 Examples of Model Prediction:
 
-[city_95](city_95.png)
+![city_95](city_95.png)
 
 Labelled : City Run
 Predicted: City Run
@@ -70,7 +70,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.27       |
 | Class 3 - seaside run    | 0.09       |
 
-[park_5](park_5.png)
+![park_5](park_5.png)
 
 Labelled : Park Run
 Predicted: Park Run
@@ -83,7 +83,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.27       |
 | Class 3 - seaside run    | 0.07       |
 
-[river_70]('river_70.png')
+![river_70]('river_70.png')
 
 Labelled : River Run
 Predicted: City Run
@@ -96,7 +96,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.31       |
 | Class 3 - seaside run    | 0.09       |
 
-[seaside_65]('seaside_65.png')
+![seaside_65]('seaside_65.png')
 
 Labelled : Seaside Run
 Predicted: Seaside Run

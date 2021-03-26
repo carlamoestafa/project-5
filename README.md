@@ -34,7 +34,6 @@ Here is the summary of the selected model from the latest modeling iterations:
 ![Model Summary](model_summary.png)
 
 
-
 ## RESULTS 
 The train and validation accuracy results from the modeling iterations were as follows:
 * dense classifier layers only: approx  0.2– 0.3
@@ -48,17 +47,19 @@ Another observation from model evaluations was that models that include data aug
 Here the results from the selected model: 
 
 Train & Validation cross entropy loss & accuracy:
+
 ![Loss & Accuracy](loss_accuracy.png)
 
 
 Model Test Confusion Matrix & Classification Report:
 
-![Confusion Matrix & Classification Report](cm_proba)
+![Confusion Matrix](cm_proba)
 
 
 We can see from the confusion matrix that the model was struggling classifying the riverside run and it struggled more specifically in differentiating riverside runs from seaside runs. The model was able, however, to classify other classes reasonably well.
 
 Examples of Model Prediction:
+
 ![Prediction Results](pred_results)
 
 

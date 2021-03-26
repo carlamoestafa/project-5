@@ -30,8 +30,8 @@ The following phase of the modeling was to incorporate regularization such as dr
 |  Shear range		     | 0.1 – 0.5	      | 0.25          |
 
 Here is the summary of the selected model from the latest modeling iterations:
-![Model Summary](model_summary.pdf)
 
+![Model Summary](model_summary.pdf)
 
 ## RESULTS 
 The train and validation accuracy results from the modeling iterations were as follows:
@@ -51,7 +51,7 @@ Train & Validation cross entropy loss & accuracy:
 Model Test Confusion Matrix:
 ![Confusion Matrix](test_cnn_aug_10.png)
 
-Command: csvtomd /Users/carlamoestafa/Documents/GitHub/project-5/results/test_cnn_aug_10.csv
+Command csvtomd test_cnn_aug_10.csv
 
 We can see from the confusion matrix that the model was struggling classifying the riverside run and it struggled more specifically in differentiating riverside runs from seaside runs. The model was able, however, to classify other classes reasonably well.
 
@@ -60,6 +60,7 @@ Examples of Model Prediction:
 ![city_95](city_95.png)
 
 Labelled : City Run
+
 Predicted: City Run
 
 Predicted class probabilities: 
@@ -73,6 +74,7 @@ Predicted class probabilities:
 ![park_5](park_5.png)
 
 Labelled : Park Run
+
 Predicted: Park Run
 
 Predicted class probabilities: 
@@ -83,9 +85,10 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.27       |
 | Class 3 - seaside run    | 0.07       |
 
-![river_70]('river_70.png')
+![river_70](river_70.png)
 
 Labelled : River Run
+
 Predicted: City Run
 
 Predicted class probabilities: 
@@ -96,9 +99,10 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.31       |
 | Class 3 - seaside run    | 0.09       |
 
-![seaside_65]('seaside_65.png')
+![seaside_65](seaside_65.png)
 
 Labelled : Seaside Run
+
 Predicted: Seaside Run
 
 Predicted class probabilities: 

@@ -57,7 +57,7 @@ We can see from the confusion matrix that the model was struggling classifying t
 
 Examples of Model Prediction:
 
-[city_95]('/Users/carlamoestafa/Documents/GitHub/project-5/running_routes/test/city_run/city_95.png')
+[city_95](city_95.png)
 
 Labelled : City Run
 Predicted: City Run
@@ -70,7 +70,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.27       |
 | Class 3 - seaside run    | 0.09       |
 
-[park_5]('/Users/carlamoestafa/Documents/GitHub/project-5/running_routes/test/park_run/park_5.png')
+[park_5](park_5.png)
 
 Labelled : Park Run
 Predicted: Park Run
@@ -83,7 +83,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.27       |
 | Class 3 - seaside run    | 0.07       |
 
-[river_70]('/Users/carlamoestafa/Documents/GitHub/project-5/running_routes/test/riverside_run/river_70.png')
+[river_70]('river_70.png')
 
 Labelled : River Run
 Predicted: City Run
@@ -96,7 +96,7 @@ Predicted class probabilities:
 | Class 2 - riverside run  | 0.31       |
 | Class 3 - seaside run    | 0.09       |
 
-[seaside_65]('/Users/carlamoestafa/Documents/GitHub/project-5/running_routes/test/seaside_run/seaside_65.png')
+[seaside_65]('seaside_65.png')
 
 Labelled : Seaside Run
 Predicted: Seaside Run

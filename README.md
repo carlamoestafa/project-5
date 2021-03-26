@@ -53,71 +53,14 @@ Train & Validation cross entropy loss & accuracy:
 
 Model Test Confusion Matrix & Classification Report:
 
-![Confusion Matrix](cm_proba)
+![Confusion Matrix](cm_proba.png)
 
 
 We can see from the confusion matrix that the model was struggling classifying the riverside run and it struggled more specifically in differentiating riverside runs from seaside runs. The model was able, however, to classify other classes reasonably well.
 
 Examples of Model Prediction:
 
-![Prediction Results](pred_results)
-
-
-![city_95](city_95.png)
-
-Labelled : City Run
-
-Predicted: City Run
-
-Predicted class probabilities: 
-|Class                     | Probability|
-|:-------------------------|:-----------|        
-| Class 0 - city run       | 0.34       |
-| Class 1 - park run       | 0.30       |
-| Class 2 - riverside run  | 0.27       |
-| Class 3 - seaside run    | 0.09       |
-
-![park_5](park_5.png)
-
-Labelled : Park Run
-
-Predicted: Park Run
-
-Predicted class probabilities: 
-|Class                     | Probability|
-|:-------------------------|:-----------|        
-| Class 0 - city run       | 0.32       |
-| Class 1 - park run       | 0.34       |
-| Class 2 - riverside run  | 0.27       |
-| Class 3 - seaside run    | 0.07       |
-
-![river_70](river_70.png)
-
-Labelled : River Run
-
-Predicted: City Run
-
-Predicted class probabilities: 
-|Class                     | Probability|
-|:-------------------------|:-----------|        
-| Class 0 - city run       | 0.34       |
-| Class 1 - park run       | 0.26       |
-| Class 2 - riverside run  | 0.31       |
-| Class 3 - seaside run    | 0.09       |
-
-![seaside_65](seaside_65.png)
-
-Labelled : Seaside Run
-
-Predicted: Seaside Run
-
-Predicted class probabilities: 
-|Class                     | Probability|
-|:-------------------------|:-----------|        
-| Class 0 - city run       | 0.1        |
-| Class 1 - park run       | 0.04       |
-| Class 2 - riverside run  | 0.18       |
-| Class 3 - seaside run    | 0.68       |
+![Prediction Results](pred_results.png)
 
 
 ## CONCLUSIONS

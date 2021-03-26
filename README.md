@@ -51,13 +51,10 @@ Train & Validation cross entropy loss & accuracy:
 Model Test Confusion Matrix & Classification Report:
 ![Confusion Matrix & Classification Report](cm_proba)
 
-
-
 We can see from the confusion matrix that the model was struggling classifying the riverside run and it struggled more specifically in differentiating riverside runs from seaside runs. The model was able, however, to classify other classes reasonably well.
 
 Examples of Model Prediction:
 ![Prediction Results](pred_results)
-
 
 ![city_95](city_95.png)
 
